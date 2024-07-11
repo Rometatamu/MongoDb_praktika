@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <h1>Retro films</h1>
+        </header>
+        <div class="item-wrapper">
+            <img class="item-img" id="imdbLink"/>
+            <div class="item-info" >
+             <h1 id="title"></h1>
+             <h3 id="raiting"></h3>
+             <p id="description"></p>
+             <button id="delete-btn" class="delete-btn">Delete film</button>
+            </div>
+            <div class="form">
+                <h5>Change the film information </h5>
+                <input id="update-imbdLink" placeholder="Image in http://somecontent.io?lll/id format" />
+                <input id="update-title" placeholder="The film title" />
+                <input id="update-description" placeholder="Description" />
+                <input id="update-raiting" placeholder="Raiting: number from 1 till 5 " />
+                <button class="update-btn" id="update-btn">Update film</button>
+              </div> 
+    </div>
+   <script src="./item.js"></script> 
+</body>
+</html>
