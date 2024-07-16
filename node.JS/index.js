@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 mongoose.connect(process.env.MONGO_CONNECTION)
- .then(()=>console.log("Conenected to DB successfuly"))
+ .then(()=>console.log("Coneneczted to DB successfuly"))
  .catch((err)=>{
     console.log(err);
 });
